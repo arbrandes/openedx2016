@@ -80,8 +80,8 @@ source code, it gets no say in project direction.
 
 ## Otto
 
-Case in point: after edX 2015, we eagerly awaited Dogwood and Otto so we could
-power our own ecommerce platform.  Unfortunately, however, it was mostly
+Note: Case in point: after edX 2015, we eagerly awaited Dogwood and Otto so we
+could power our own ecommerce platform.  Unfortunately, however, it was mostly
 developed behind closed doors: the feature was not being tracked in a public
 web page, and there were no public discussions about it.  In the end, it was
 released without European VAT regulations support, and instead of being able to
