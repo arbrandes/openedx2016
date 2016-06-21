@@ -4,6 +4,8 @@
 
 [@arbrandes](https://twitter.com/arbrandes) | [@hastexo](https://twitter.com/hastexo)
 
+*Use arrow keys to navigate, "ESC" for overview, or "s" for speaker notes.*
+
 
 So, what is
 # this

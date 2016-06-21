@@ -26,10 +26,6 @@
   <body>
     <div class="reveal">
       <div class="slides">
-        <section>
-	  <div class="qrcode" id="qrcode-talk"/>
-	  <p><a href="http://arbrandes.github.io/openedx2016" target="_blank" id="talk">http://arbrandes.github.io/openedx2016</a></p>
-        </section>
         <section id="intro"
                  data-markdown="markdown/intro.md"
                  data-separator="^\n\n\n"
@@ -70,8 +66,8 @@
 // Full list of configuration options available here:
 // https://github.com/hakimel/reveal.js#configuration
 Reveal.initialize({
-    controls: false,
-    progress: false,
+    controls: true,
+    progress: true,
     history: true,
     center: true,
 
@@ -95,6 +91,18 @@ Reveal.initialize({
     </script>
     <script src="qrcodejs/qrcode.js"></script>
     <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26017039-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+    </script>
+    <script type="text/javascript">
+
       Reveal.addEventListener('ready', function() {
 /* Grab all links and iterate over them */
 var sources = document.getElementsByTagName('a');
